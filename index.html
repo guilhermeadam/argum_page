@@ -1,52 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Argum</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body>
-    <nav class="p-4">
-      <a class="font-bold text-2xl" href="/">Argum Insight Platform</a>
 
-      <div class="float-right">
-        <a class="text-lg mr-4">About</a>
-        <a class="text-lg">Contact</a>
-      </div>
+    <style>
+
+        * {
+            transition: 0.25s;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav class="p-4">
+        <a class="font-bold text-2xl" href="/">Argum Insight Platform</a>
+
+        <div class="float-right">
+            <a href="#about" class="hover:opacity-100 opacity-70 text-lg mr-4">About</a>
+            <a href="#contact" class="hover:opacity-100 opacity-70 text-lg">Contact</a>
+        </div>
     </nav>
 
-    <section class="px-16 mt-32">
-      <div class="grid grid-cols-2">
-        <div>
-          <h1 class="text-5xl font-bold pb-4">Welcome!</h1>
-          <p class="pb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-            corrupti tenetur libero, incidunt quaerat possimus rerum inventore
-            vero, placeat ipsum expedita deleniti doloribus eaque totam,
-            quibusdam temporibus sed vitae! Dolorem?
-          </p>
+    <section class="px-64 mt-32 mb-32">
+        <div class="grid grid-cols-2">
+            <div>
+                <h1 class="text-5xl font-bold pb-4">Welcome!</h1>
+                <p class="pb-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                    corrupti tenetur libero, incidunt quaerat possimus rerum inventore
+                    vero, placeat ipsum expedita deleniti doloribus eaque totam,
+                    quibusdam temporibus sed vitae! Dolorem?
+                </p>
 
-          <a
-            class="p-4 py-2 bg-gradient-to-r from-green-700 to-blue-300 text-white font-bold inline-block rounded-3xl filter hover:drop-shadow"
-            href="#about"
-            >Learn More!</a>
+                <a class="p-4 py-2 bg-gradient-to-r from-green-700 to-blue-300 text-white font-bold inline-block rounded-3xl filter hover:drop-shadow"
+                    href="#about">Learn More!
+                </a>
+            </div>
+
+            <div>
+                <img class="max-w-sm" src="./logo.jpeg" />
+            </div>
+
         </div>
-
-        <div>
-            <img class="max-w-sm" src="./logo.jpeg" />
-        </div>
-
-      </div>
     </section>
 
-    <section class="text-center">
+    <section class="text-center mb-32">
 
-        <h1 class="text-4xl font-bold">How it Works?</h1>
+        <div class="max-w-xl inline-block">
+
+            <h1 class="text-4xl font-bold mb-4">How it Works?</h1>
+
+            <p class="mb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolorum, eaque libero ratione nobis
+                incidunt aperiam culpa ad. Perferendis eum eaque pariatur enim dolor, harum tenetur voluptates amet
+                aspernatur ducimus!
+            </p>
+
+            <div class="grid grid-cols-2 text-center gap-4">
+
+                <div>
+                    <h2 class="font-bold text-2xl">Step 1</h2>
+                    <p>
+                        Description about your step.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-2xl">Step 2</h2>
+                    <p>
+                        Description about your step.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-2xl">Step 3</h2>
+                    <p>
+                        Description about your step.
+                    </p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-2xl">Step 4</h2>
+                    <p>
+                        Description about your step.
+                    </p>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
 
     </section>
 
-  </body>
+    <section id="about" class="px-64 mb-32">
+
+        <div>
+
+            <h1 class="text-5xl font-bold pb-4">About</h1>
+            <p class="pb-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                corrupti tenetur libero, incidunt quaerat possimus rerum inventore
+                vero, placeat ipsum expedita deleniti doloribus eaque totam,
+                quibusdam temporibus sed vitae! Dolorem?
+            </p>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="px-64 mb-32">
+
+        <div>
+
+            <h1 class="text-5xl font-bold pb-4">Contact</h1>
+            <p class="pb-4">
+                Feel free to reach out through email!
+            </p>
+
+            <a class="p-4 py-2 bg-gradient-to-r from-green-700 to-blue-300 text-white font-bold inline-block rounded-3xl filter hover:drop-shadow"
+                href="#about">Contact Us!
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer class="text-center py-8 border-t">
+
+        <a class="hover:opacity-100 opacity-70 mr-4">Argum Insight Platform</a>
+        <a class="hover:opacity-100 opacity-70 mr-4">About</a>
+        <a class="hover:opacity-100 opacity-70 mr-4">Contact</a>
+        <a class="hover:opacity-100 opacity-70 mr-4">Updated 2022</a>
+
+    </footer>
+
+</body>
+
 </html>
